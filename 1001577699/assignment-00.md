@@ -6,9 +6,9 @@
 In order to compute the factorial of an arbirtaty positive integer `n`, we need not resort to an explicit mathematical definition of such a function, but rather establish a recursive definition by using a list of numbers.
 
 The function receives a value x and builds up a list beginnig with the number 1 (henceforth a_1), with the recursion:
-```math
-a_n = n \cdot a_{n-1};
-```
+
+<img src="https://render.githubusercontent.com/render/math?math=a_n =n\cdot a_{n-1}">
+
 this means that the first few iterations yield
 ```math
 \begin{gather}
