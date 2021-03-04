@@ -6,17 +6,17 @@
 In order to compute the factorial of an arbirtaty positive integer `n`, we need not resort to an explicit mathematical definition of such a function, but rather establish a recursive definition by using a list of numbers.
 
 The function receives a value x and builds up a list beginnig with the number 1 (henceforth a_1), with the recursion:
-$$
+```math
 a_n = n \cdot a_{n-1};
-$$
+```
 this means that the first few iterations yield
-$$
+```math
 \begin{gather}
 a_2 = 2 \cdot a_1 = 2 \cdot 1, \\
 a_3 = 3 \cdot a_2 = 3 \cdot 2 \cdot 1, \\
 a_4 = 4 \cdot a_3 = 4 \cdot 3 \cdot 2 \cdot 1,
 \end{gather}
-$$
+```
 and so on and so forth. The function just returns the last item on the list.
 <!-- name: factorial -->
 ```python
