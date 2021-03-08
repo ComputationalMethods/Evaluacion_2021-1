@@ -266,6 +266,7 @@ def fib(n) :
         print(fib_list[-2])
 ```
 Execution example:
+
 Input 
 <!-- require: Fibonacci, target: output_5 -->
 ```python
@@ -276,26 +277,4 @@ Output
 ```
 12586269025
 6557470319842
-```
-
-<!-- name: recurrence -->
-```python
-import matplotlib.pyplot as plt
-def recurrence(n) :
-        r = 3.5
-        recurrence_list = [0.2]
-        for i in range(1, n+1) : # Python interprets this as an interval [1 .. n] 
-                recurrence_list.append(r*recurrence_list[i-1]*(1-recurrence_list[i-1]))
-        
-        t = range(n+1)
-        fig, ax = plt.subplots(1)
-        ax.plot(t, recurrence_list, 'b-', markersize=2)
-        plt.show()
-```
-<!-- require: recurrence, target: output_6 -->
-```python
-recurrence(10)
-```
-<!-- name: output_6 -->
-```
 ```
