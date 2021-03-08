@@ -89,21 +89,21 @@ $$
   \end{block}
   \end{blockarray}
 $$
-Each row is associated to an element on the ordered list of divisors $(0,d_1,d_2,\ddots,d_m)$, which can be truncated up to the k-th element as $(0,a_1,\ddots,a_k)$. Each column is associated to an integer between 0 and $n$. 
+Each row is associated to an element on the ordered list of divisors $(0,d_1,d_2,\dots,d_m)$, which can be truncated up to the k-th element as $(0,a_1,\dots,a_k)$. Each column is associated to an integer between 0 and $n$. 
 
-An element in the $(i,j)$ position in this array is True ($T$) if there is a subset of the truncated list up to the i-th element (viz., a subset of $(0,a_1,\ddots,a_i)$) which adds up to $j$.
+An element in the $(i,j)$ position in this array is True ($T$) if there is a subset of the truncated list up to the i-th element (viz., a subset of $(0,a_1,\dots,a_i)$) which adds up to $j$.
 
 Here the first column tells us that for a list truncated up to any element of the divisor list, there is a subset that can add up to 0, this is taken as a tautology for we defined the 0-th element to be 0. On the other hand, 0 cannot add up to a number greater than itself, that is why the elements on the first row must be False ($F$).
 
 The empty matrix shown above will be filled according to two simple rules, which are indeed plausible. Suppose we require the value of an element in the $(i,j)$ position:
 * If $j < d_i$ and the element $(i-1,j)$ is False, then there is no way we can add up to $j$ with a number that is greater than $j$, hence $(i,j)$ would be False too. On the other hand, if the element $(i-1,j)$ is True, then it follows that any truncated list past $d_{i-1}$ will contain at least one subset that adds up to $j$, hence $(i,j)$ would be true.
-* If $j \geq d_i$ and the value of $(i-1,j)$ is True, we already know that $(i,j)$ will be also True; but even if $(i,j)$ is False there is the possibility that some subset of $(0,d_1,\ddots,d_{i-1})$ give the value $j - d_i$, if such a subset happens to exist, then the value of $(i,j)$ must be True. Hence $(i,j)$ will be False if both the above conditions are False.
+* If $j \geq d_i$ and the value of $(i-1,j)$ is True, we already know that $(i,j)$ will be also True; but even if $(i,j)$ is False there is the possibility that some subset of $(0,d_1,\dots,d_{i-1})$ give the value $j - d_i$, if such a subset happens to exist, then the value of $(i,j)$ must be True. Hence $(i,j)$ will be False if both the above conditions are False.
 
 Simply, put:
 * If $j < d_i$, then $(i,j) = (i-1,j)$.
 * If $j \geq d_i $, then $(i,j) = (i-1,j) or (i-1,j-d_i)$.
 
-<!-- name: semi-perfect -->
+<!-- name: semi-perfect, require: divisors -->
 ```python
 def is_semiperfect(m) :
         divisors_list = []
@@ -135,7 +135,7 @@ def is_semiperfect(m) :
                 print(f'{m} is semi-perfect')
 ```
 The following are just trivial definitions.
-<!-- name: easy_statements -->
+<!-- name: easy_statements, require: semi-perfect -->
 ```python
 def are_amicable(n, m, div_sum_n, div_sum_m) :
         if n == div_sum_m and m == div_sum_n :
@@ -154,21 +154,55 @@ def is_abundant(n, div_sum) :
                 print(f'{n} is abundant')
 
 def is_perfect(n, div_sum) :
-        if div_sum = n :
+        if div_sum == n :
                 print(f'{n} is perfect')
 ```
-Execution example:
-Input
-<!-- require: divisors, target:output_2 -->
+Finally all comes together:
+<!-- require:easy_statements, name: kind -->
 ```python
-is_semiperfect(40)
-print(div_list(40))
+def kind_of_number(a,b) :
+        # we gather together the variables we require
+        div_a = div_list(a)
+        div_b = div_list(b)
+        sum_a = sum(div_a)
+        sum_b = sum(div_b)
+
+        # print the statements 
+        are_amicable(a,b,sum_a,sum_b)
+
+        is_prime(a, div_a)
+        is_prime(b, div_b)
+
+        is_defective(a, sum_a)
+        is_defective(b, sum_b)
+
+        is_abundant(a, sum_a)
+        is_abundant(b, sum_b)
+
+        is_perfect(a, sum_a)
+        is_perfect(b, sum_b)
+
+        is_semiperfect(a)
+        is_semiperfect(b)
+```
+Execution example:
+
+Input
+<!-- require: kind, target: output_2 -->
+```python
+kind_of_number(40,12), kind_of_number(220,284)
 ```
 Output
 <!-- name:output_2 -->
 ```
+40 is abundant
+12 is abundant
 40 is semi-perfect
-[1, 2, 20, 4, 10, 5, 8]
+12 is semi-perfect
+220 and 284 are amicable
+284 is defective
+220 is abundant
+220 is semi-perfect
 ```
 
 #### 3. Palindrome number
@@ -184,6 +218,7 @@ def palindrome(number) :
                 print(False)
 ```
 Execution example:
+
 Input
 <!-- require: palindrome, target: output_3 -->
 ```python
@@ -206,10 +241,12 @@ def string(string) :
         chars = []
         vocals = 'aeiou'
         
-        if len(string) % 2 != 0 :
+        if len(string) % 2 == 0 :
                  chars.append(False)
         elif string[int(len(string) / 2)] in vocals :
                 chars.append(True)
+        else :
+                chars.append(False)
 
         vocals_in_str = 0
         consonants_in_str = 0
@@ -226,6 +263,7 @@ def string(string) :
         print(chars)
 ```
 Execution example:
+
 Input
 <!-- require: string, target: output_4 -->
 ```python
@@ -235,12 +273,12 @@ Output
 <!-- name: output_4 -->
 ```
 [False, 2, 3, 'orrep']
-[True, 5, 5, 'ogaleicrum']
+[False, 5, 5, 'ogaleicrum']
 ```
 
 #### 5. The Fibonacci sequence
 
-Much like the first exercise, this is a recursion, in this case given by the formula ...
+Much like the first exercise, this is a recursion, which in this case is given by the formula ...
 <!-- name: Fibonacci -->
 ```python
 def fib(n) :
@@ -260,4 +298,26 @@ Output
 ```
 12586269025
 6557470319842
+```
+
+<!-- name: recurrence -->
+```python
+import matplotlib.pyplot as plt
+def recurrence(n) :
+        r = 3.5
+        recurrence_list = [0.2]
+        for i in range(1, n+1) : # Python interprets this as an interval [1 .. n] 
+                recurrence_list.append(r*recurrence_list[i-1]*(1-recurrence_list[i-1]))
+        
+        t = range(n+1)
+        fig, ax = plt.subplots(1)
+        ax.plot(t, recurrence_list, 'b-', markersize=2)
+        plt.show()
+```
+<!-- require: recurrence, target: output_6 -->
+```python
+recurrence(10)
+```
+<!-- name: output_6 -->
+```
 ```
