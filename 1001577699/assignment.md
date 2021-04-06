@@ -52,7 +52,7 @@ Note that if $d$ divides $n$, then $n$ might as well be written as a product of 
 $$
 d < \sqrt{n} \Leftrightarrow n/d > \sqrt{n},
 $$
-which establishes the desired relation and allows us to find all divisors of an integer by iterating to $\floor{\sqrt{n}}$. 
+which establishes the desired relation and allows us to find all divisors of an integer by iterating up to $\sqrt{n}$. 
 <!-- name: divisors -->
 ```python
 import math
@@ -278,7 +278,13 @@ Output
 
 #### 5. The Fibonacci sequence
 
-Much like the first exercise, this is a recursion, which in this case is given by the formula ...
+Much like the first exercise, this is a recursion, which in this case is given by the formula
+\begin{gather*}
+F_1 = 1, \\
+F_2 = 1, \\
+F_n = F_{n-1} + F_{n-2}
+\end{gather*}
+
 <!-- name: Fibonacci -->
 ```python
 def fib(n) :
@@ -288,6 +294,7 @@ def fib(n) :
         print(fib_list[-2])
 ```
 Execution example:
+
 Input 
 <!-- require: Fibonacci, target: output_5 -->
 ```python
@@ -299,7 +306,47 @@ Output
 12586269025
 6557470319842
 ```
+#### 6. Quicksort
+<!-- name: quicksort -->
+```python
+def partition(array, lowestIndex, greatestIndex) :
+    pivot = array[greatestIndex]
+    lessPointer = lowestIndex
+    greaterPointer = greatestIndex - 1
+    
+    while True :
+        if array[greaterPointer] >= pivot and lessPointer <= greaterPointer:
+            greaterPointer -= 1
 
+        if array[lessPointer] <= pivot and lessPointer <= greaterPointer:
+            lessPointer += 1
+        
+        if lessPointer > greaterPointer :
+            break
+        else:
+            array[lessPointer], array[greaterPointer] = array[greaterPointer], array[lessPointer]
+    
+    array[lessPointer], array[greatestIndex] = array[greatestIndex], array[lessPointer]
+    return lessPointer
+
+def quickSortWrapper(array, lowestIndex, greatestIndex) :
+    if greatestIndex == lowestIndex :
+            return array
+    if lowestIndex < greatestIndex:
+            partitionIndex = partition(array, lowestIndex, greatestIndex)
+            # apply the same algorithm to resulting partitions
+            quickSortWrapper(array,lowestIndex,partitionIndex-1)
+            quickSortWrapper(array,partitionIndex+1,greatestIndex)
+
+def quickSort(array) :
+    quickSortWrapper(array,0,len(array)-1)
+
+alist = [10, 7, 8, 9, 1, 5]
+quickSort(alist)
+print(alist) 
+```
+
+#### 7. Activities.
 <!-- name: recurrence -->
 ```python
 import matplotlib.pyplot as plt
@@ -314,7 +361,7 @@ def recurrence(n) :
         ax.plot(t, recurrence_list, 'b-', markersize=2)
         plt.show()
 ```
-<!-- require: recurrence, target: output_6 -->
+<!-- require: recurrence -->
 ```python
 recurrence(10)
 ```
