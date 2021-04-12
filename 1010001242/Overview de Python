@@ -1,9 +1,0 @@
-[1]
-  #Integer
-  n=3
-[2]
-  #float
-  x=3.5
-[A]
-  isinstance(n, float)
-  False
