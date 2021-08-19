@@ -1,1 +1,1 @@
-Trabajos de Métodos Computacionales
+Trabajos y parciales de Métodos Computacionales
