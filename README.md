@@ -3,4 +3,4 @@ See official repo at:
 
 https://github.com/restrepo/examenes/tree/master/ComputationalMethods
 
-[./califiaciones.json](./calificaciones.json)
+[./calificaciones.json](./calificaciones.json)
