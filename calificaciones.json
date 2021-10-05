@@ -39,9 +39,9 @@
                {"Taller":"Profesor Externo",
                 "value":"None",
                 "%":15
-               },
-               "%":30
-              ]
+               }
+              ],
+              "%":30
     },    
     {"Id":"1113674432",
      "Parcial 2":{"value":4.5,
