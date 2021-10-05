@@ -8,11 +8,11 @@
                   "%":20,
                   "Descripción": "Capítulos 4,5"
                  },
-     "Parcial 3":{"value":None,
+     "Parcial 3":{"value":"None",
                   "%":20,
                   "Descripción": "Capítulos 4,5"
                  },     
-     "Trabajo Final":{"value":None,
+     "Trabajo Final":{"value":"None",
                   "%":15,
                   "Descripción": "Capítulos 5,6"
                  },     
@@ -37,7 +37,7 @@
                 "Descripción": "Polinomios de Lagrange"
                },
                {"Taller":"Profesor Externo",
-                "value":None,
+                "value":"None",
                 "%":15
                },
                "%":30
@@ -46,7 +46,6 @@
     {"Id":"1113674432",
      "Parcial 2":{"value":4.5,
                   "%":15},
-     ,
      "Tareas":[{"Tarea": "1",
                 "value": "5",
                 "Descripción": "Python overview"
