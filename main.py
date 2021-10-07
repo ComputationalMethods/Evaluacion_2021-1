@@ -7,9 +7,13 @@ from typing import Optional
 
 from fastapi import FastAPI
 
+import requests
+
 import json
 
 app = FastAPI()
+
+file='https://raw.githubusercontent.com/ComputationalMethods/Evaluacion_2021-1/main/calificaciones.json'
 
 #JSON SCHEME
 #[{"student_id":"0000000000",
@@ -20,15 +24,18 @@ app = FastAPI()
 # ...
 # }
 #]
-with open('calificaciones.json') as json_file:
-    db=json.load(json_file)
-
 
 @app.get("/")
 def read_item(student_id: str = ""):
     '''
     http://127.0.0.1:8000/?student_id=1113674432
     '''
+    #Real time JSON file
+    r=requests.get(file)
+    db=r.json()
+    #with open(file) as json_file:
+    #   db=json.load(json_file)
+
     if not student_id:
     	return db
     else:
