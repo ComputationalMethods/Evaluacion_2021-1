@@ -3,7 +3,7 @@ Abrir en Firefox:
 * [http://clustercien.udea.edu.co:8000/](http://clustercien.udea.edu.co:8000/)
 
 Abrir en Firefox con su identificación, por ejemplo: después de abrir el link cambiar el número al final: `0000000000`, por su identificación
-* [http://clustercien.udea.edu.co:8000/student_id=0000000000](http://clustercien.udea.edu.co:8000/student_id=0000000000)
+* [http://clustercien.udea.edu.co:8000/?student_id=0000000000](http://clustercien.udea.edu.co:8000/?student_id=0000000000)
 
 Descarga JSON:
 * [./calificaciones.json](./calificaciones.json)
