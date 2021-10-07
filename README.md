@@ -10,11 +10,12 @@ O use la documentación del API, a continuación, desplegando el botón "GET" y 
 * [http://clustercien.udea.edu.co:8000/docs](http://clustercien.udea.edu.co:8000/docs)
 
 Descarga JSON:
-* [./calificaciones.json](./calificaciones.json)
-o con pandas
+* [./calificaciones.json](https://computationalmethods.github.io/Evaluacion_2021-1/calificaciones.json)
+
+O con pandas
 ```pyhon
 import pandas as pd
-df=pd.read_json('https://raw.githubusercontent.com/ComputationalMethods/Evaluacion_2021-1/main/calificaciones.json')
+df=pd.read_json('https://computationalmethods.github.io/Evaluacion_2021-1/calificaciones.json')
 ```
 
 See official repo at:
