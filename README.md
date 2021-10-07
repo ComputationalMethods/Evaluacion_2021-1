@@ -4,6 +4,7 @@ Abrir en Firefox y hacer click en "Colapse All" para mejorar la visulación:
 
 Abrir en Firefox con su identificación, por ejemplo: después de abrir el link cambiar el número al final: `0000000000`, por su identificación
 * [http://clustercien.udea.edu.co:8000/?student_id=0000000000](http://clustercien.udea.edu.co:8000/?student_id=0000000000)
+  * Powered by [FastAPI](https://fastapi.tiangolo.com/), see [`main.py`](./main.py)
 
 Descarga JSON:
 * [./calificaciones.json](./calificaciones.json)
