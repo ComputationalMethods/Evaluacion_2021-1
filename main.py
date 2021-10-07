@@ -28,7 +28,7 @@ file='https://raw.githubusercontent.com/ComputationalMethods/Evaluacion_2021-1/m
 @app.get("/")
 def read_item(student_id: str = ""):
     '''
-    http://127.0.0.1:8000/?student_id=1113674432
+    http://clustercien.udea.edu.co:8000/?student_id=1113674432
     '''
     #Real time JSON file
     r=requests.get(file)
