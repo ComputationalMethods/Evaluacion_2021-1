@@ -16,10 +16,10 @@ app = FastAPI()
 file='https://raw.githubusercontent.com/ComputationalMethods/Evaluacion_2021-1/main/calificaciones.json'
 
 #JSON SCHEME
-#[{"student_id":"0000000000",
-# "Evaluation 1":{"value":0,
-#                 "%":15,
-#                 "Description": "Capítulos 1,2,3"
+#[{"student_id": str,
+# "Evaluation 1":{"value": int,
+#                 "%": int,
+#                 "Description": str
 #                 }, 
 # ...
 # }
