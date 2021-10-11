@@ -1,6 +1,134 @@
 [
-    {"Id":1113674432,
-     "Parcial 2":{"value":4.5,
-                  "%":15}
-    }
+    {"student_id":"0000000000",
+     "Parcial 1":{"value":0,
+                  "%":15,
+                  "description": "Capítulos 1,2,3"
+                 },     
+     "Parcial 2":{"value":0,
+                  "%":20,
+                  "description": "Capítulos 4,5"
+                 },
+     "Parcial 3":{"value":null,
+                  "%":20,
+                  "description": "Capítulos 4,5"
+                 },     
+     "Trabajo Final":{"value":null,
+                  "%":15,
+                  "description": "Capítulos 5,6"
+                 },     
+     "Tareas":[{"Tarea": "1",
+                "value": 0,
+                "description": "Python overview"
+               },
+                {"Tarea": "2",
+                "value": 0,
+                "description": "Pandas"
+               },
+                {"Tarea": "3",
+                "value": 0,
+                "description": "Computer arithmetics"
+               },               
+                {"Tarea": "4",
+                "value": 0,
+                "description": "Raíces"
+               },
+               {"Tarea": "5",
+                "value": 0,
+                "description": "Polinomios de Lagrange"
+               },
+               {"Taller":"Profesor Externo",
+                "value":null,
+                "%":15
+               }
+              ],
+    "%":30
+    },    
+    {"student_id":"1113674432",
+        "Parcial 1":{"value":0,
+            "%":15,
+            "description": "Capítulos 1,2,3"
+           },     
+     "Parcial 2":{"value":0,
+            "%":20,
+            "description": "Capítulos 4,5"
+           },
+     "Parcial 3":{"value":null,
+            "%":20,
+            "description": "Capítulos 4,5"
+           },     
+     "Trabajo Final":{"value":null,
+            "%":15,
+            "description": "Capítulos 5,6"
+           },     
+     "Tareas":[{"Tarea": "1",
+          "value": 0,
+          "description": "Python overview"
+         },
+          {"Tarea": "2",
+          "value": 0,
+          "description": "Pandas"
+         },
+          {"Tarea": "3",
+          "value": 0,
+          "description": "Computer arithmetics"
+         },               
+          {"Tarea": "4",
+          "value": 0,
+          "description": "Raíces"
+         },
+         {"Tarea": "5",
+          "value": 0,
+          "description": "Polinomios de Lagrange"
+         },
+         {"Taller":"Profesor Externo",
+          "value":null,
+          "%":15
+         }
+        ],
+     "%":30
+    },
+    {"student_id":"98554575",
+        "Parcial 1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial 2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial 3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       }    
 ]
