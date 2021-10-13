@@ -176,11 +176,11 @@
        "%":30
        },
        {"student_id":"1007374246",
-        "Parcial_1":{"value":0,
+        "Parcial_1":{"value":5.0,
                      "%":15,
                      "description": "Capítulos 1,2,3"
                     },     
-        "Parcial_2":{"value":0,
+        "Parcial_2":{"value":5.0,
                      "%":20,
                      "description": "Capítulos 4,5"
                     },
