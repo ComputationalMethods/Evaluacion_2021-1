@@ -1,0 +1,76 @@
+import numpy as np
+import pandas as pd
+import scipy as sp
+import matplotlib.pyplot as plt
+import numpy.linalg as la        #Importacion De Todas Las Librerias.
+import math as m # real 
+import cmath as cm # complex
+from scipy import optimize
+from scipy import misc
+from scipy import interpolate
+import scipy.optimize as optimize
+import scipy.interpolate as interpolate
+import scipy.integrate as integrate
+import matplotlib,pylab as plt
+
+PRIMER PUNTO 
+
+df=pd.read_json("https://raw.githubusercontent.com/restrepo/ComputationalMethods/master/data/Followers.json")
+SEG=df[["followers","hours"]]
+df          #OBTENEMOS LOS DATOS
+
+
+          #CALCULO POR DIFERENCIAS DIVIDIDAS
+Vel=[]          
+for i in range(0,619):
+  Cuenta=(SEG["followers"][i+1]-(SEG["followers"][i]))/(SEG["hours"][i+1]-(SEG["hours"][i]))
+  Vel=np.append(Vel, Cuenta)
+print( "La velocidad inicial es:", Vel[0])
+
+Acel=[]
+for i in range(0,619):
+  Cuenta=((SEG["followers"][i+1]-(SEG["followers"][i]))/(SEG["hours"][i+1]-(SEG["hours"][i])))/(SEG["hours"][i+1]-(SEG["hours"][i]))
+  Acel=np.append(Acel, Cuenta)
+print( "La aceleracion constante promedio es:", np.mean(Acel))
+
+print("El valor maximo de seguidores es:", np.amax(df.followers) )
+print(       "Y se alcanza en la fecha:" , df.date_time[619])
+
+
+SEGUNDO PUNTO 
+
+g=9.80665 (m/s2)
+s = np.sin(theta/2)
+                            #SE DEFINEN VARIABLES DE AMPLITUD
+def to(l,g= 9.80665):
+  return 2*np.pi*np.sqrt(l/g)
+
+def t(theta,l,g=9.80665):
+  return (2*to(l,g)/np.pi)*integrate.quad(lambda x: (1)/(np.sqrt(1-s**2*np.sin(x)**2)),0,np.pi/2)[0]
+  
+            #VECTORIZACION PARA TRABJAR CON ARREGLOS FACILMENTE
+vectt = np.vectorize(t)
+theta = np.linspace(0,np.pi/2,100)
+theta = np.asarray(theta)
+l = 10
+
+Lista = np.ones(theta.shape[0])*to(l)
+     
+vectt(theta,l)
+vectt(theta,l)/Lista
+df = pd.DataFrame({"Theta" : theta , "grados" : theta*180/np.pi , "cociente" : vectt(theta,l)/Lista})
+
+#GRAFICACION
+
+plt.plot(df.Theta , df.cociente, label = "T0/T", color = "green")
+plt.title("Grafica de T0/T",color="green")
+plt.ylabel("Cociente T0/T")
+plt.xlabel("Theta")
+plt.show
+plt.grid()
+plt.legend()
+
+#Cuando tenemos  α  = 0 el denominador de la expresion tiende a 1 y  por lo tanto se cumple que T=T0
+
+
+
