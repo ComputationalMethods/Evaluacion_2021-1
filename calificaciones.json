@@ -351,12 +351,12 @@
                  ],
        "%":30
        },    
-       {"student_id":"0000000000",
+       {"student_id":"1010001242",
         "Parcial_1":{"value":0,
                      "%":15,
                      "description": "Capítulos 1,2,3"
                     },     
-        "Parcial_2":{"value":0,
+        "Parcial_2":{"value":1.0,
                      "%":20,
                      "description": "Capítulos 4,5"
                     },
@@ -369,19 +369,19 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Pandas"
                   },
                    {"Tarea": "3",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Computer arithmetics"
                   },               
                    {"Tarea": "4",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
