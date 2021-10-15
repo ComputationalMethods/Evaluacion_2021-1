@@ -69,7 +69,7 @@
           "description": "Pandas"
          },
           {"Tarea": "3",
-          "value": 5,
+          "value": 5.0,
           "description": "Computer arithmetics"
          },               
           {"Tarea": "4",
