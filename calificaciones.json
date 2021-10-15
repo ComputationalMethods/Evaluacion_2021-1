@@ -117,7 +117,7 @@
                    "description": "Computer arithmetics"
                   },               
                    {"Tarea": "4",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
@@ -483,7 +483,7 @@
                  ],
        "%":30
        },    
-       {"student_id":"0000000000",
+       {"student_id":"1000287497",
         "Parcial_1":{"value":0,
                      "%":15,
                      "description": "Capítulos 1,2,3"
@@ -501,23 +501,23 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Pandas"
                   },
                    {"Tarea": "3",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Computer arithmetics"
                   },               
                    {"Tarea": "4",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Polinomios de Lagrange"
                   },
                   {"Taller":"Profesor Externo",
