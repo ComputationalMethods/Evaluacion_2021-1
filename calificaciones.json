@@ -1195,7 +1195,7 @@
                  ],
        "%":30
        },
-       {"student_id":"0000000000",
+       {"student_id":"1192914660",
         "Parcial_1":{"value":0,
                      "%":15,
                      "description": "Capítulos 1,2,3"
@@ -1213,7 +1213,7 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
