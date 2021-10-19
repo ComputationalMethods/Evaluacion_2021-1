@@ -22,3 +22,10 @@ See official repo at:
 
 https://github.com/restrepo/examenes/tree/master/ComputationalMethods
 
+## Fast API
+See install options and usage at: https://fastapi.tiangolo.com/
+```
+$ uvicorn main:app --reload --host clustercien.udea.edu.co
+```
+
+

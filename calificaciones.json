@@ -1,18 +1,18 @@
 [
     {"student_id":"0000000000",
-     "Parcial 1":{"value":0,
+     "Parcial_1":{"value":0,
                   "%":15,
                   "description": "Capítulos 1,2,3"
                  },     
-     "Parcial 2":{"value":0,
+     "Parcial_2":{"value":0,
                   "%":20,
                   "description": "Capítulos 4,5"
                  },
-     "Parcial 3":{"value":null,
+     "Parcial_3":{"value":null,
                   "%":20,
                   "description": "Capítulos 4,5"
                  },     
-     "Trabajo Final":{"value":null,
+     "Trabajo_Final":{"value":null,
                   "%":15,
                   "description": "Capítulos 5,6"
                  },     
@@ -30,7 +30,7 @@
                },               
                 {"Tarea": "4",
                 "value": 0,
-                "description": "Raíces"
+                "description": "Raíces (Fixed-Point)"
                },
                {"Tarea": "5",
                 "value": 0,
@@ -44,37 +44,37 @@
     "%":30
     },    
     {"student_id":"1113674432",
-        "Parcial 1":{"value":0,
+        "Parcial_1":{"value":2.0,
             "%":15,
             "description": "Capítulos 1,2,3"
            },     
-     "Parcial 2":{"value":0,
+     "Parcial_2":{"value":5.0,
             "%":20,
             "description": "Capítulos 4,5"
            },
-     "Parcial 3":{"value":null,
+     "Parcial_3":{"value":null,
             "%":20,
             "description": "Capítulos 4,5"
            },     
-     "Trabajo Final":{"value":null,
+     "Trabajo_Final":{"value":null,
             "%":15,
             "description": "Capítulos 5,6"
            },     
      "Tareas":[{"Tarea": "1",
-          "value": 0,
+          "value": 5.0,
           "description": "Python overview"
          },
           {"Tarea": "2",
-          "value": 0,
+          "value": 5.0,
           "description": "Pandas"
          },
           {"Tarea": "3",
-          "value": 0,
+          "value": 5.0,
           "description": "Computer arithmetics"
          },               
           {"Tarea": "4",
           "value": 0,
-          "description": "Raíces"
+          "description": "Raíces (Fixed-Point)"
          },
          {"Tarea": "5",
           "value": 0,
@@ -87,20 +87,1576 @@
         ],
      "%":30
     },
-    {"student_id":"98554575",
-        "Parcial 1":{"value":0,
+    {"student_id":"1086418061",
+        "Parcial_1":{"value":3.5,
                      "%":15,
                      "description": "Capítulos 1,2,3"
                     },     
-        "Parcial 2":{"value":0,
+        "Parcial_2":{"value":4.5,
                      "%":20,
                      "description": "Capítulos 4,5"
                     },
-        "Parcial 3":{"value":null,
+        "Parcial_3":{"value":null,
                      "%":20,
                      "description": "Capítulos 4,5"
                     },     
-        "Trabajo Final":{"value":null,
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000319349",
+        "Parcial_1":{"value":4.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":4.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1007374246",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },       
+       {"student_id":"1005896770",
+        "Parcial_1":{"value":4.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":4.5,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1001577699",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1083928808",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1010001242",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":1.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1001479482",
+        "Parcial_1":{"value":4.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000565036",
+        "Parcial_1":{"value":3.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000287497",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000411452",
+        "Parcial_1":{"value":4.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments": "falto valor absoluto en max. 0**3 es 0"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1001445953",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000417189",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1098807231",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"archivo corrupto"
+                    },     
+        "Parcial_2":{"value":2.0,
+                     "%":20,
+                     "description": "Capítulos 4,5",
+                     "comments":"deriva cero en primer punto y mala integración en segundo"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1152709857",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1152205385",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1007291855",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1097408176",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1004776769",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":4.5,
+                     "%":20,
+                     "description": "Capítulos 4,5",
+                     "comments":"aceleración mal calculada"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1152463516",
+        "Parcial_1":{"value":4.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"Faltó cálculo de raíz en punto B)"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1000307065",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },    
+       {"student_id":"1017270713",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"15515942",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1152708672",
+        "Parcial_1":{"value":3.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0, faltó derivada. En punto B) faltó raíz"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1000148694",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1192914660",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1000758293",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1001368196",
+        "Parcial_1":{"value":5.0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":4.5,
+                     "%":20,
+                     "description": "Capítulos 4,5",
+                     "comments":"aceleración mal calculada"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1001059237",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
+                    },     
+        "Parcial_2":{"value":4.5,
+                     "%":20,
+                     "description": "Capítulos 4,5",
+                     "comments":"unidades malas"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1004807437",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"demasiados for"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"98540850",
+        "Parcial_1":{"value":3.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"faltó abs en max. 0**3 es 0"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1152457227",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1035440236",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1007694473",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
+                    },     
+        "Parcial_2":{"value":5.0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"1000401376",
+        "Parcial_1":{"value":4.5,
+                     "%":15,
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
+                    },     
+        "Parcial_2":{"value":4.0,
+                     "%":20,
+                     "description": "Capítulos 4,5",
+                     "comments":"no hay respuestas explícitas a las preguntas A)"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 5.0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 5.0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 5.0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 5.0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 5.0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
                      "%":15,
                      "description": "Capítulos 5,6"
                     },     
@@ -118,7 +1674,7 @@
                   },               
                    {"Tarea": "4",
                    "value": 0,
-                   "description": "Raíces"
+                   "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
                    "value": 0,
@@ -130,5 +1686,401 @@
                   }
                  ],
        "%":30
-       }    
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       },
+       {"student_id":"0000000000",
+        "Parcial_1":{"value":0,
+                     "%":15,
+                     "description": "Capítulos 1,2,3"
+                    },     
+        "Parcial_2":{"value":0,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },
+        "Parcial_3":{"value":null,
+                     "%":20,
+                     "description": "Capítulos 4,5"
+                    },     
+        "Trabajo_Final":{"value":null,
+                     "%":15,
+                     "description": "Capítulos 5,6"
+                    },     
+        "Tareas":[{"Tarea": "1",
+                   "value": 0,
+                   "description": "Python overview"
+                  },
+                   {"Tarea": "2",
+                   "value": 0,
+                   "description": "Pandas"
+                  },
+                   {"Tarea": "3",
+                   "value": 0,
+                   "description": "Computer arithmetics"
+                  },               
+                   {"Tarea": "4",
+                   "value": 0,
+                   "description": "Raíces (Fixed-Point)"
+                  },
+                  {"Tarea": "5",
+                   "value": 0,
+                   "description": "Polinomios de Lagrange"
+                  },
+                  {"Taller":"Profesor Externo",
+                   "value":null,
+                   "%":15
+                  }
+                 ],
+       "%":30
+       }                                                                             
 ]
