@@ -1302,23 +1302,23 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Pandas"
                   },
                    {"Tarea": "3",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Computer arithmetics"
                   },               
                    {"Tarea": "4",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Polinomios de Lagrange"
                   },
                   {"Taller":"Profesor Externo",
@@ -1328,14 +1328,16 @@
                  ],
        "%":30
        },
-       {"student_id":"0000000000",
-        "Parcial_1":{"value":0,
+       {"student_id":"1001059237",
+        "Parcial_1":{"value":4.5,
                      "%":15,
-                     "description": "Capítulos 1,2,3"
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0"
                     },     
-        "Parcial_2":{"value":0,
+        "Parcial_2":{"value":4.5,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 4,5",
+                     "comments":"unidades malas"
                     },
         "Parcial_3":{"value":null,
                      "%":20,
