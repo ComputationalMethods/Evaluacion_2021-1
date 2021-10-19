@@ -928,10 +928,11 @@
                  ],
        "%":30
        },    
-       {"student_id":"0000000000",
-        "Parcial_1":{"value":0,
+       {"student_id":"1152463516",
+        "Parcial_1":{"value":4.0,
                      "%":15,
-                     "description": "Capítulos 1,2,3"
+                     "description": "Capítulos 1,2,3",
+                     "comments":"Faltó cálculo de raíz en punto B)"
                     },     
         "Parcial_2":{"value":0,
                      "%":20,
@@ -946,23 +947,23 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Pandas"
                   },
                    {"Tarea": "3",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Computer arithmetics"
                   },               
                    {"Tarea": "4",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Raíces (Fixed-Point)"
                   },
                   {"Tarea": "5",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Polinomios de Lagrange"
                   },
                   {"Taller":"Profesor Externo",
