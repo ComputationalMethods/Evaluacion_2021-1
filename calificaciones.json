@@ -1735,10 +1735,11 @@
                  ],
        "%":30
        },
-       {"student_id":"0000000000",
-        "Parcial_1":{"value":0,
+       {"student_id":"1002461801",
+        "Parcial_1":{"value":4.0,
                      "%":15,
-                     "description": "Capítulos 1,2,3"
+                     "description": "Capítulos 1,2,3",
+                     "comments":"0**3 es 0, faltó usar abstracciones"
                     },     
         "Parcial_2":{"value":0,
                      "%":20,
@@ -1753,7 +1754,7 @@
                      "description": "Capítulos 5,6"
                     },     
         "Tareas":[{"Tarea": "1",
-                   "value": 0,
+                   "value": 5.0,
                    "description": "Python overview"
                   },
                    {"Tarea": "2",
