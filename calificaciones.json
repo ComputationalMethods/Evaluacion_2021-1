@@ -140,9 +140,10 @@
                      "%":20,
                      "description": "Capítulos 4,5"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.0,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment": "Y es no simétrica y se bi-diagonaliza con teorema 2"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
