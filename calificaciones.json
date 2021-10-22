@@ -10,11 +10,11 @@
                  },
      "Parcial_3":{"value":null,
                   "%":20,
-                  "description": "Capítulos 4,5"
+                  "description": "Capítulos 6,7,8"
                  },     
      "Trabajo_Final":{"value":null,
                   "%":15,
-                  "description": "Capítulos 5,6,7"
+                  "description": "jupyter notebook"
                  },     
      "Tareas":[{"Tarea": "1",
                 "value": 0,
@@ -54,11 +54,11 @@
            },
      "Parcial_3":{"value":null,
             "%":20,
-            "description": "Capítulos 4,5"
+            "description": "Capítulos 6,7,8"
            },     
      "Trabajo_Final":{"value":null,
             "%":15,
-            "description": "Capítulos 5,6,7"
+            "description": "jupyter notebook"
            },     
      "Tareas":[{"Tarea": "1",
           "value": 5.0,
@@ -98,11 +98,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -142,11 +142,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -186,11 +186,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -230,11 +230,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -274,11 +274,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -318,11 +318,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -362,11 +362,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -406,11 +406,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -450,11 +450,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -494,11 +494,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -539,11 +539,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -584,11 +584,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -628,11 +628,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -674,11 +674,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -718,11 +718,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -762,11 +762,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -806,11 +806,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -850,11 +850,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -895,11 +895,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -940,11 +940,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -984,11 +984,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1029,11 +1029,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1073,11 +1073,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1118,11 +1118,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1162,11 +1162,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1206,11 +1206,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1250,11 +1250,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1295,11 +1295,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1341,11 +1341,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1386,11 +1386,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1431,11 +1431,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1475,11 +1475,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1519,11 +1519,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1564,11 +1564,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1610,11 +1610,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1656,11 +1656,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1702,11 +1702,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1747,11 +1747,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1792,11 +1792,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1836,11 +1836,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1882,11 +1882,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1928,11 +1928,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -1973,11 +1973,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -2018,11 +2018,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -2064,11 +2064,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
@@ -2109,11 +2109,11 @@
                     },
         "Parcial_3":{"value":null,
                      "%":20,
-                     "description": "Capítulos 4,5"
+                     "description": "Capítulos 6,7,8"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
-                     "description": "Capítulos 5,6,7"
+                     "description": "jupyter notebook"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
