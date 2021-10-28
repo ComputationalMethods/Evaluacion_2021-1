@@ -673,7 +673,7 @@
         "Parcial_2":{"value":2.0,
                      "%":20,
                      "description": "Capítulos 4,5",
-                     "comments":"deriva cero en primer punto y mala integración en segundo"
+                     "comments":"derivada cero en primer punto y mala integración en segundo"
                     },
         "Parcial_3":{"value":null,
                      "%":20,
