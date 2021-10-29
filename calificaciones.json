@@ -665,15 +665,15 @@
        "%":30
        },    
        {"student_id":"1098807231",
-        "Parcial_1":{"value":0,
+        "Parcial_1":{"value":4.5,
                      "%":15,
                      "description": "Capítulos 1,2,3",
-                     "comments":"archivo corrupto"
+                     "comments":"0**3=0"
                     },     
         "Parcial_2":{"value":2.0,
                      "%":20,
                      "description": "Capítulos 4,5",
-                     "comments":"deriva cero en primer punto y mala integración en segundo"
+                     "comments":"derivada cero en primer punto y mala integración en segundo"
                     },
         "Parcial_3":{"value":null,
                      "%":20,
