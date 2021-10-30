@@ -902,13 +902,16 @@
                      "description": "Capítulos 4,5",
                      "comments":"aceleración mal calculada"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.5,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"Y es no simétrica y se diagonaliza con el teorema 2"
                     },     
-        "Trabajo_Final":{"value":null,
+        "Trabajo_Final":{"value":5.0,
                      "%":15,
-                     "description": "jupyter notebook"
+                     "description": "jupyter notebook",
+                        "comments":"Circuitos RLC. Buenos estándares de escritura en modalidad de artículo"
+
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
