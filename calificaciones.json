@@ -1622,7 +1622,7 @@
         "Parcial_1":{"value":4.5,
                      "%":15,
                      "description": "Capítulos 1,2,3",
-                     "comments":"0**3 es 0"
+                     "comments":"0**3 es 0."
                     },     
         "Parcial_2":{"value":4.0,
                      "%":20,
