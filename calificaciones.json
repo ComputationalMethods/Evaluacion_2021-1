@@ -589,13 +589,15 @@
                      "%":20,
                      "description": "Capítulos 4,5"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.0,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"uniform genera m1 siempre cercano a 1E-4. Y no es simétrica y se diagonaliza con teorema 2"
                     },     
-        "Trabajo_Final":{"value":null,
+        "Trabajo_Final":{"value":5.0,
                      "%":15,
-                     "description": "jupyter notebook"
+                     "description": "jupyter notebook",
+                     "comment": "modelo vacunación covid-19 Colmbia. Se podría mejorar incluyendo errores"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
