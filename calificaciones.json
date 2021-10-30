@@ -1675,13 +1675,15 @@
                      "description": "Capítulos 4,5",
                      "comments": "múltiples errores numéricos"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.0,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"np.random.uniform solo escoge valores cercanos a 1E-4. Y es no simétrica y se diagonaliza con teorema 2"
                     },     
-        "Trabajo_Final":{"value":null,
+        "Trabajo_Final":{"value":5.0,
                      "%":15,
-                     "description": "jupyter notebook"
+                     "description": "jupyter notebook",
+                     "comment": "Abbe number for several fluids. curve_fit with uncertainty!"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
