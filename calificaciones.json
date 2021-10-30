@@ -1929,9 +1929,10 @@
                      "description": "Capítulos 4,5",
                      "comments":"falto unidades en el primer punto. Mal integrado segundo punto"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":3.0,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"mal uso de np.logspace; falto comparar matrices de autovectores, Y se diagonaliza con el teorema 2"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
