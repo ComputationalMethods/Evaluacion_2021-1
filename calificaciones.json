@@ -1721,7 +1721,7 @@
         "Trabajo_Final":{"value":5.0,
                      "%":15,
                      "description": "jupyter notebook",
-                    "comment":"Usando tracker app para medir tiempo de caida libre y determinar g. Faltó bibliografía"
+                    "comment":"Usando tracker app para medir tiempo de caida libre y determinar g. Faltó bibliografía. Corre en colab"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
