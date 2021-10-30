@@ -1683,7 +1683,7 @@
         "Trabajo_Final":{"value":5.0,
                      "%":15,
                      "description": "jupyter notebook",
-                     "comment": "Abbe number for several fluids. curve_fit with uncertainty!"
+                     "comment": "Abbe number for several fluids. curve_fit with uncertainty with nice plots!"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
