@@ -2170,9 +2170,10 @@
                      "description": "Capítulos 6,7,8",
                      "comment":"Y es no simétrica y se bi-diagonaliza con teorema 2"
                     },     
-        "Trabajo_Final":{"value":null,
+        "Trabajo_Final":{"value":4.5,
                      "%":15,
-                     "description": "jupyter notebook"
+                     "description": "jupyter notebook",
+                     "comment":"faltó rotular ejes y y poner unidades"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
