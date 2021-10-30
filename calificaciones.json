@@ -1890,13 +1890,15 @@
                      "description": "Capítulos 4,5",
                      "comments":"faltó fecha. Seguidores debe ser entero"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.0,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"uniform sólo da m1 cercanos a 1E-4. Y2 es no simétrica y se diagonaliza con teorema 2"
                     },     
-        "Trabajo_Final":{"value":null,
+        "Trabajo_Final":{"value":4.0,
                      "%":15,
-                     "description": "jupyter notebook"
+                     "description": "jupyter notebook",
+                     "comments":"En la descripción se debió usar notación vectorial de LaTeX. Rótulos de ejes incorrectos y sin unidades"
                     },     
         "Tareas":[{"Tarea": "1",
                    "value": 5.0,
