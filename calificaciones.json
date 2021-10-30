@@ -2164,9 +2164,10 @@
                      "description": "Capítulos 4,5",
                      "comments":"Faltó calcular la fecha bien"
                     },
-        "Parcial_3":{"value":null,
+        "Parcial_3":{"value":4.5,
                      "%":20,
-                     "description": "Capítulos 6,7,8"
+                     "description": "Capítulos 6,7,8",
+                     "comment":"Y es no simétrica y se bi-diagonaliza con teorema 2"
                     },     
         "Trabajo_Final":{"value":null,
                      "%":15,
